@@ -1,0 +1,18 @@
+.header {
+  transition: all 0.5s ease;
+  &__shrink {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: all 0.5s ease;
+  }
+  &__icons {
+    font-size: 30px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
